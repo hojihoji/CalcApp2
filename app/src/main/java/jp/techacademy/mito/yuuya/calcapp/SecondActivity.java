@@ -24,7 +24,7 @@ public class SecondActivity extends AppCompatActivity {
                 textView.setText(String.valueOf(value1 - value2));
             } else if (value3.equals("×")) {
                 textView.setText(String.valueOf(value1 * value2));
-            } else if (value3.equals("÷") && value1 != 0 && value2 != 0) {
+            } else if (value3.equals("÷") && value2 != 0) {
                 textView.setText(String.valueOf(value1 / value2));
             } else {
                 textView.setText("計算できません");
